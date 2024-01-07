@@ -1,4 +1,2 @@
-# Email-Spam-Classifier
-- Code
-- HTML
-- Flask
+# Email-Spam-Classifier Using Flask
+
