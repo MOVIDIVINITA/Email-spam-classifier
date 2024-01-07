@@ -27,7 +27,7 @@ In my dataset they are two types of mails "Spam mail" and "Ham mail" spam mail i
 
 This Flask web application loads a pre-trained Naive Bayes spam classification model from a pickled file ("Naive_model.pkl"). Upon receiving a user input through a form submission on the home page ("/"), it extracts the entered email text, makes predictions using the loaded model, and then displays the predicted output on a separate page ("show.html"). The application utilizes Flask's functionality for rendering templates and handling HTTP requests. The server runs in debug mode when executed as the main module, making it suitable for development purposes. The prediction result is integrated into the rendered template to provide feedback to the user.
 
-- Webpage link: http://127.0.0.1:5000
+- Webpage link http://127.0.0.1:5000
 
 
 
